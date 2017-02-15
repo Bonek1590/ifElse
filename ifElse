@@ -1,0 +1,14 @@
+import.java.util.Scanner
+{
+  public static void main (String () args)
+  {
+    System.out.println("What is the length of your rectangle?");
+    int l = input.nextInt();
+    System.out.println("What is the width of your rectangle?");
+    int w = input.nextInt();
+    System.out.println("what is the height of your rectangle?");
+    int h = input.nextInt();
+    int Surface_Area = 2*((w*l) + (h*l) + (h*w));
+   System.out.prinhtln("The Surface Area of your rectangle is:\n" + Surface_Area);
+  }
+}
